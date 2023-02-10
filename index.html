@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 class="my-5 text-center">KASIR</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 fruits-div" style="background: red;">
+                <div class="fruit-emoji mt-3 text-center">🍎</div>
+                <div class="fruit-name text-center my-2">Apple</div>
+                <div class="fruit-price text-center my-2">$1</div>
+                <input id="apple" class="my-2 fruit-input" type="text">
+            </div>
+            <div class="col-md-4 fruits-div" style="background: orange;">
+                <div class="fruit-emoji mt-3 text-center">🍊</div>
+                <div class="fruit-name text-center my-2">Orange</div>
+                <div class="fruit-price text-center my-2">$1.2</div>
+                <input id="orange" class="my-2 fruit-input" type="text">
+            </div>
+            <div class="col-md-4 fruits-div" style="background: green;">
+                <div class="fruit-emoji mt-3 text-center">🍉</div>
+                <div class="fruit-name text-center my-2">Watermelon</div>
+                <div class="fruit-price text-center my-2">$3</div>
+                <input id="watermelon" class="my-2 fruit-input" type="text">
+            </div>
+            <div class="col-md-4 fruits-div" style="background: purple;">
+                <div class="fruit-emoji mt-3 text-center">🍇</div>
+                <div class="fruit-name text-center my-2">Grape</div>
+                <div class="fruit-price text-center my-2">$0.7</div>
+                <input id="grape" class="my-2 fruit-input" type="text">
+            </div>
+            <div class="col-md-4 fruits-div" style="background: yellow;">
+                <div class="fruit-emoji mt-3 text-center">🍌</div>
+                <div class="fruit-name text-center my-2">Banana</div>
+                <div class="fruit-price text-center my-2">$1.5</div>
+                <input id="banana" class="my-2 fruit-input" type="text">
+            </div>
+            <div class="col-md-4 fruits-div" style="background: lightgreen;">
+                <div class="fruit-emoji mt-3 text-center">🍈</div>
+                <div class="fruit-name text-center my-2">Melon</div>
+                <div class="fruit-price text-center my-2">$2.5</div>
+                <input id="melon" class="my-2 fruit-input" type="text">
+            </div>
+            <div class="col-md-4 fruits-div" style="background: darkred;">
+                <div class="fruit-emoji mt-3 text-center">🍓</div>
+                <div class="fruit-name text-center my-2">Strawberry</div>
+                <div class="fruit-price text-center my-2">$0.4</div>
+                <input id="strawberry" class="my-2 fruit-input" type="text">
+            </div>
+            <div class="col-md-4 fruits-div" style="background: darkorange;">
+                <div class="fruit-emoji mt-3 text-center">🍍</div>
+                <div class="fruit-name text-center my-2">Pinapple</div>
+                <div class="fruit-price text-center my-2">$3.5</div>
+                <input id="pinapple" class="my-2 fruit-input" type="text">
+            </div>
+            <div class="col-md-4 fruits-div" style="background: #ff0000;">
+                <div class="fruit-emoji mt-3 text-center">🍒</div>
+                <div class="fruit-name text-center my-2">Cherry</div>
+                <div class="fruit-price text-center my-2">$0.3</div>
+                <input id="cherry" class="my-2 fruit-input" type="text">
+            </div>
+        </div>
+    </div>
+    <div class="btn-div text-center"><button id="btn" type="submit">Calculate</button></div>
+    <div class="text-center">
+        <div id="evalnum" class="hasil"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
